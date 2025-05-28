@@ -1,5 +1,4 @@
 import math as m
-user_input: str = input('You:').lower()
 def addition():
         print(f'Sure! Let\'s do some addition! Please provide 2 numbers for me to add')
         try:
