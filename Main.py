@@ -13,33 +13,33 @@ while flag is True:
         print(f'Goodbye see you next time')
         flag = False
     elif user_input in ['add', '+','addition']:
-        addition()
+        s.addition()
     elif user_input in ['minus','-','subtraction']:
-        subtraction()
+        s.subtraction()
     if user_input in ['division','/','div']:
-        division()
+        s.division()
     elif user_input in ['Multiplication','x']:
-        multiplication()
+        s.multiplication()
     elif user_input in ['Exponents','^']:
-        exponents()
+        s.exponents()
     elif user_input in ['Square root','sqrt']:
-        square_roots()
+        s.square_roots()
     elif user_input in ['!','factorial']:
-        factorial()
+        s.factorial()
     elif user_input in ['mod']:
-        modulus()
+        s.modulus()
     elif user_input in ["tan"]:
-        tan()
+        t.tan()
     elif user_input in ['cos']:
-        cos()
+        t.cos()
     elif user_input in ['sin']:
-        sin()
+        t.sin()
     elif user_input in ['arcsin']:
-        arcsin()
+        t.arcsin()
     elif user_input in ['arctan']:
-        arctan()
+        t.arctan()
     elif user_input in ['arccos']:
-        arccos()
+        t.arccos()
     elif user_input is ['']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
