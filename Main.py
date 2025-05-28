@@ -57,3 +57,5 @@ while flag is True:
         print(f'Here are the simple ones +: Addition -: Subtraction /: Division x: Multiplication Exponents sqrt: square roots')
         print(f'Here are the more complex ones^: !: Factorials mod: modulus')
         print(f'Here are the trig ones tan:tangent cos:cosine sin:sines arcsin:arcsines arctan:arctangents arccos:arccosine')
+        print(f'Here are the Logirithms log2:log base 2 log3:log base 3 log4:log base 4 log5:log base 5 log10:log base 10')
+
