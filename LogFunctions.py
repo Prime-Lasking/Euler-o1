@@ -35,3 +35,12 @@ def Log5():
         print(f'The answer is {m.log5(num)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
+def Logn():
+    print(f'Sure Let\'s do some base n logs Please provide a number')
+    try:
+        num: float = float(input('The number: '))
+        base: int = int(input('The base: '))
+        print(f'The answer is {m.log(num,base)}')
+    except ValueError:
+        print(f'That doesn\'t seem to be a valid number.')
+
