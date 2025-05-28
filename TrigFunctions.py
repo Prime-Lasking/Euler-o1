@@ -1,5 +1,4 @@
 import math as m
-user_input: str = input('You:').lower()
 def tan():
     print(f'Sure Let\'s do some Tangents Please provide a number')
     try:
