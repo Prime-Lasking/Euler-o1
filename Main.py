@@ -50,6 +50,8 @@ while flag is True:
         l.log4()
     elif user_input in ['log5']:
         l.log5()
+    elif user_input in ['log']:
+        l.Logn()
     elif user_input is ['I HATE YOU','I hate you','i hate you','i hate you euler','I hate you euler','I hate you Euler','I HATE YOU EULER',' I HATE YOU euler']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
@@ -57,5 +59,5 @@ while flag is True:
         print(f'Here are the simple ones +: Addition -: Subtraction /: Division x: Multiplication Exponents sqrt: square roots')
         print(f'Here are the more complex ones^: !: Factorials mod: modulus')
         print(f'Here are the trig ones tan:tangent cos:cosine sin:sines arcsin:arcsines arctan:arctangents arccos:arccosine')
-        print(f'Here are the Logirithms log2:log base 2 log3:log base 3 log4:log base 4 log5:log base 5 log10:log base 10')
+        print(f'Here are the Logirithms log2:log base 2 log3:log base 3 log4:log base 4 log5:log base 5 log10:log base 10 Log:Log base n')
 
