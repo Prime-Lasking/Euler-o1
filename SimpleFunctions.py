@@ -37,9 +37,9 @@ def multiplication():
 def exponents():
     print(f'Sure Let\'s do some Exponents Please provide 2 different numbers')
     try:
-        num1: float = float(input('First number: '))
-        num2: float = float(input('Second number: '))
-        print(f'The answer is {num1 ** num2}')
+        base: float = float(input('First number: '))
+        exponent: float = float(input('Second number: '))
+        print(f'The answer is {base ** exponent}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def square_roots():
