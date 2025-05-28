@@ -1,4 +1,6 @@
-from Functions import *
+import SimpleFunctions as s
+import TrigFunctions as t
+import LogFunctions as l
 bot_name: str = 'Euler'
 print(f'Hello! I\'m {bot_name}!')
 flag = True
