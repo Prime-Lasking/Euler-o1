@@ -1,5 +1,4 @@
 import math as m
-user_input: str = input('You:').lower()
 def Log2():
     print(f'Sure Let\'s do some base 2 logs Please provide a number')
     try:
