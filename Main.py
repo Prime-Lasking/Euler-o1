@@ -40,7 +40,17 @@ while flag is True:
         t.arctan()
     elif user_input in ['arccos']:
         t.arccos()
-    elif user_input is ['']:
+    elif user_input in ['log10']:
+        l.log10()
+    elif user_input in ['log2']:
+        l.log2()
+    elif user_input in ['log3']:
+        l.log3()
+    elif user_input in ['log4']:
+        l.log4()
+    elif user_input in ['log5']:
+        l.log5()
+    elif user_input is ['I HATE YOU','I hate you','i hate you','i hate you euler','I hate you euler','I hate you Euler','I HATE YOU EULER',' I HATE YOU euler']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
         print(f'Ok i can help here are some functions for you to use')
