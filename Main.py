@@ -40,6 +40,12 @@ while flag is True:
         t.arctan()
     elif user_input in ['arccos']:
         t.arccos()
+    elif user_input in ['cosecant','csc']:
+        t.cosecant()
+    elif user_input in ['secant','sec']:
+        t.secant()
+    elif user_input in ['cotanget','cot']:
+        t.cotangent()
     elif user_input in ['log10']:
         l.log10()
     elif user_input in ['log2']:
