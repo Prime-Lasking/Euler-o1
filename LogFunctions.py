@@ -3,35 +3,35 @@ def Log2():
     print(f'Sure Let\'s do some base 2 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log2(num)}')
+        print(f'The answer is {m.log(num,2)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def Log10():
     print(f'Sure Let\'s do some base 10 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log10(num)}')
+        print(f'The answer is {m.log(num,10)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def Log3():
     print(f'Sure Let\'s do some base 3 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log3(num)}')
+        print(f'The answer is {m.log(num,3)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def Log4():
     print(f'Sure Let\'s do some base 4 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log4(num)}')
+        print(f'The answer is {m.log(num,4)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def Log23():
     print(f'Sure Let\'s do some base 23 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log23(num)}')
+        print(f'The answer is {m.log(num,23)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 
@@ -39,7 +39,7 @@ def Log5():
     print(f'Sure Let\'s do some base 5 logs Please provide a number')
     try:
         num: float = float(input('The number: '))
-        print(f'The answer is {m.log5(num)}')
+        print(f'The answer is {m.log(num,5)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
 def Logn():
