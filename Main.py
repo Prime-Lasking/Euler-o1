@@ -47,15 +47,15 @@ while flag is True:
     elif user_input in ['cotanget','cot']:
         t.cotangent()
     elif user_input in ['log10']:
-        l.log10()
+        l.Log10()
     elif user_input in ['log2']:
-        l.log2()
+        l.Log2()
     elif user_input in ['log3']:
-        l.log3()
+        l.Log3()
     elif user_input in ['log4']:
-        l.log4()
+        l.Log4()
     elif user_input in ['log5']:
-        l.log5()
+        l.Log5()
     elif user_input in ['log']:
         l.Logn()
     elif user_input in ['log23']:
