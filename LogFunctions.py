@@ -27,6 +27,14 @@ def Log4():
         print(f'The answer is {m.log4(num)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
+def Log23():
+    print(f'Sure Let\'s do some base 23 logs Please provide a number')
+    try:
+        num: float = float(input('The number: '))
+        print(f'The answer is {m.log23(num)}')
+    except ValueError:
+        print(f'That doesn\'t seem to be a valid number.')
+
 def Log5():
     print(f'Sure Let\'s do some base 5 logs Please provide a number')
     try:
