@@ -58,6 +58,8 @@ while flag is True:
         l.log5()
     elif user_input in ['log']:
         l.Logn()
+    elif user_input in ['log23']:
+        l.log23()
     elif user_input is ['I HATE YOU','I hate you','i hate you','i hate you euler','I hate you euler','I hate you Euler','I HATE YOU EULER',' I HATE YOU euler']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
