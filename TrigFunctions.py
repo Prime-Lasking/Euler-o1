@@ -41,3 +41,24 @@ def arccos():
         print(f'The answer is {m.acos(num)}')
     except ValueError:
         print(f'That doesn\'t seem to be a valid number.')
+def cotangent():
+    print(f'Sure Let\'s do some cosecants Please provide a number')
+    try:
+        num: float = float(input('The number: '))
+        print(f'The answer is {1/(m.tan(num))}')
+    except ValueError:
+        print(f'That doesn\'t seem to be a valid number.')
+def secant():
+    print(f'Sure Let\'s do some secants Please provide a number')
+    try:
+        num: float = float(input('The number: '))
+        print(f'The answer is {1/(m.cos(num))}')
+    except ValueError:
+        print(f'That doesn\'t seem to be a valid number.')
+def cosecant():
+    print(f'Sure Let\'s do some cosecant Please provide a number')
+    try:
+        num: float = float(input('The number: '))
+        print(f'The answer is {1/(m.sin(num))}')
+    except ValueError:
+        print(f'That doesn\'t seem to be a valid number.')
