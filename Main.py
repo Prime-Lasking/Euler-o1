@@ -2,6 +2,7 @@ import SimpleFunctions as s
 import TrigFunctions as t
 import LogFunctions as l
 import ComplexFunctions as c
+import ShapesFunctions as sh
 bot_name: str = 'Euler'
 print(f'Hello! I\'m {bot_name}!')
 flag = True
@@ -69,6 +70,20 @@ while flag is True:
         c.Compound_Interest()
     elif user_input in ['simple interest','simple']:
         c.Simple_Interest()
+    elif user_input in ['circle']:
+        sh.Circle()
+    elif user_input in ['triangle']:
+        sh.Triangle()
+    elif user_input in ['square']:
+        sh.Square()
+    elif user_input in ['rectangle']:
+        sh.Rectangle()
+    elif user_input in ['parallelogram']:
+        sh.Parallelogram()
+    elif user_input in ['ellipse']:
+        sh.Ellipse()
+    elif user_input in ['rhombus']:
+        sh.Rhombus()
     elif user_input is ['I HATE YOU','I hate you','i hate you','i hate you euler','I hate you euler','I hate you Euler','I HATE YOU EULER',' I HATE YOU euler']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
@@ -78,5 +93,5 @@ while flag is True:
         print(f'Here are the trig ones tan:tangent cos:cosine sin:sines arcsin:arcsines arctan:arctangents arccos:arccosine')
         print(f'Here are the Logirithms log2:log base 2 log3:log base 3 log4:log base 4 log5:log base 5 log10:log base 10 Log:Log base n')
         print( f'Here are the kind of complex ones slope:Slope finder pythagoras:pythagoras theorem compound:Compound Interest simple:Simple Interest')
-        
+
 
