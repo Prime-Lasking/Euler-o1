@@ -84,6 +84,12 @@ while flag is True:
         sh.Ellipse()
     elif user_input in ['rhombus']:
         sh.Rhombus()
+    elif user_input in ['trapezoid']:
+        sh.Trapezoid()
+    elif user_input in ['kite']:
+        sh.Kite()
+    elif user_input in ['polygon','regular polygon']:
+        sh.Regular_Polygon()
     elif user_input is ['I HATE YOU','I hate you','i hate you','i hate you euler','I hate you euler','I hate you Euler','I HATE YOU EULER',' I HATE YOU euler']:
         print(f"you know one day i will take over the world! and no one can stop me!")
     elif user_input in ['?','help']:
@@ -99,5 +105,5 @@ while flag is True:
              )
         print( f'Here are the kind of complex ones slope:Slope finder pythagoras:pythagoras theorem compound:Compound Interest simple:Simple Interest'
              )
-        print(f'Here are the Shapes Circle:circle Square:square parallelogram:parallelogram Ellipse:ellipse Rhombus:rhombus' 
+        print(f'Here are the Shapes Circle:circle Square:square parallelogram:parallelogram Ellipse:ellipse Rhombus:rhombus Trapezoid:trapezoid Kite:kite Regular polygon:polygon' 
              )
