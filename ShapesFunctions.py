@@ -60,4 +60,32 @@ def Rhombus():
         print(f'The Perimeter is {4*a} The Area is {.5*d1*d2}')
     except ValueError:
         print(f'That doesn\'t seem valid.')
-#Trapezoid,Kite,Regular Polygon
+def Trapezoid():
+    print(f'Sure! Let\'s do some Trapezoids!')
+    try:
+        a: float = float(input('First Side: '))
+        b: float = float(input('Second Side: '))
+        c: float = float(input('Third Side: '))
+        d: float = float(input('Fourth Side: '))
+        Height: float = float(input('Height: '))
+        print(f'The Perimeter is {a+b+c+d} The Area is {.5*(a+b)*Height}')
+    except ValueError:
+        print(f'That doesn\'t seem valid.')
+def Kite():
+    print(f'Sure! Let\'s do some Kites!')
+    try:
+        a: float = float(input('Long Side: '))
+        b: float = float(input('Short Side: '))
+        d1: float = float(input('First diagonal: '))
+        d2: float = float(input('Second diagonal: '))
+        print(f'The Perimeter is {2*(a+b)} The Area is {.5*d1*d2}')
+    except ValueError:
+        print(f'That doesn\'t seem valid.')
+def Regular_Polygon():
+    print(f'Sure! Let\'s do some Regular Polygons!')
+    try:
+        n: int = int(input('Amount of sides: '))
+        a: float = float(input('A side: '))
+        print(f'The Perimeter is {n*a} The Area is {n*(a**2)*.25*cot(pi/n)}')
+    except ValueError:
+        print(f'That doesn\'t seem valid.')
