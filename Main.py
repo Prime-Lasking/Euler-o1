@@ -1,8 +1,9 @@
-import SimpleFunctions as s
-import TrigFunctions as t
-import LogFunctions as l
-import ComplexFunctions as c
-import ShapesFunctions as sh
+if __name__ == "__main__":
+ import SimpleFunctions as s
+ import TrigFunctions as t
+ import LogFunctions as l
+ import ComplexFunctions as c
+ import ShapesFunctions as sh
 bot_name: str = 'Euler'
 print(f'Hello! I\'m {bot_name}!')
 flag = True
