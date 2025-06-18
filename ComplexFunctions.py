@@ -45,4 +45,36 @@ def Simple_Interest():
         print(f'That dosen\'t seem to be a valid number.')
     except ZeroDivisionError:
         print('That\'s division by zero')
+def Mean():
+        print("Let's calculate the Mean. Please provide some numbers.")
+        try:
+            data = list(map(float, input("Enter numbers separated by spaces: ").split()))
+            mean_value = round(sum(data) / len(data), 2)
+            print(f"Mean: {mean_value}")
+        except ValueError:
+            print("That doesn't seem to be a valid number.")
+def Median():
+    print("Let's calculate the Median. Please provide some numbers.")
+    try:
+        data = list(map(float, input("Enter numbers separated by spaces: ").split()))
+        data.sort()
+        n = len(data)
+        if n % 2 == 0:
+            median_value = round((data[n//2 - 1] + data[n//2]) / 2, 2)
+        else:
+            median_value = round(data[n//2], 2)
+        print(f"Median: {median_value}")
+    except ValueError:
+        print("That doesn't seem to be a valid number.")
+
+def Mode():
+    print("Let's calculate the mode. Provide some numbers.")
+    try:
+        data = list(map(float, input("Enter numbers separated by spaces: ").split()))
+        frequency = {num: data.count(num) for num in set(data)}
+
+        mode = max(frequency, key=frequency.get)
+        print(f"Mode: {mode}")
+    except ValueError:
+        print("Invalid input. Please enter numbers only.")
 
