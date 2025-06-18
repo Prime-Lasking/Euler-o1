@@ -71,6 +71,12 @@ while flag is True:
         c.Compound_Interest()
     elif user_input in ['simple interest','simple']:
         c.Simple_Interest()
+    elif user_input in ['mean']:
+        c.Mean()
+    elif user_input in ['mode']:
+        c.Mode()
+    elif user_input in ['median']:
+        c.Median()
     elif user_input in ['circle']:
         sh.Circle()
     elif user_input in ['triangle']:
