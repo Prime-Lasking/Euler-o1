@@ -15,6 +15,8 @@ while flag is True:
     elif user_input in ['bye','goodbye','see you later','see you','bye euler','goodbye euler']:
         print(f'Goodbye see you next time')
         flag = False
+    elif user_input in ['exit']:
+        flag = False
     elif user_input in ['add', '+','addition']:
         s.addition()
     elif user_input in ['minus','-','subtraction']:
